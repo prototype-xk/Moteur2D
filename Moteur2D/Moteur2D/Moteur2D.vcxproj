@@ -135,11 +135,23 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="Scene\SceneGame.cpp" />
+    <ClCompile Include="Scene\SceneLose.cpp" />
+    <ClCompile Include="Scene\SceneMenu.cpp" />
+    <ClCompile Include="Scene\SceneOption.cpp" />
+    <ClCompile Include="Scene\SceneSelect.cpp" />
+    <ClCompile Include="Scene\SceneWin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AssetManager.hpp" />
     <ClInclude Include="Scene.hpp" />
     <ClInclude Include="SceneManager.hpp" />
+    <ClInclude Include="Scene\SceneGame.hpp" />
+    <ClInclude Include="Scene\SceneLose.hpp" />
+    <ClInclude Include="Scene\SceneMenu.hpp" />
+    <ClInclude Include="Scene\SceneOption.hpp" />
+    <ClInclude Include="Scene\SceneSelect.hpp" />
+    <ClInclude Include="Scene\SceneWin.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
