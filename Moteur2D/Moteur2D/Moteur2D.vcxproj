@@ -131,10 +131,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AssetManager.cpp" />
+    <ClCompile Include="Core\MStream.cpp" />
+    <ClCompile Include="Core\MString.cpp" />
+    <ClCompile Include="Core\MVector.cpp" />
+    <ClCompile Include="Engine\AssetManager.cpp" />
+    <ClCompile Include="Engine\Scene.cpp" />
+    <ClCompile Include="Engine\SceneManager.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Scene.cpp" />
-    <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="Scene\SceneGame.cpp" />
     <ClCompile Include="Scene\SceneLose.cpp" />
     <ClCompile Include="Scene\SceneMenu.cpp" />
@@ -143,9 +146,12 @@
     <ClCompile Include="Scene\SceneWin.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AssetManager.hpp" />
-    <ClInclude Include="Scene.hpp" />
-    <ClInclude Include="SceneManager.hpp" />
+    <ClInclude Include="Core\MStream.hpp" />
+    <ClInclude Include="Core\MString.hpp" />
+    <ClInclude Include="Core\MVector.hpp" />
+    <ClInclude Include="Engine\AssetManager.hpp" />
+    <ClInclude Include="Engine\Scene.hpp" />
+    <ClInclude Include="Engine\SceneManager.hpp" />
     <ClInclude Include="Scene\SceneGame.hpp" />
     <ClInclude Include="Scene\SceneLose.hpp" />
     <ClInclude Include="Scene\SceneMenu.hpp" />

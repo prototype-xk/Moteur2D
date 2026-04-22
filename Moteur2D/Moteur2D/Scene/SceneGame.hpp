@@ -1,4 +1,4 @@
-#include "../Scene.hpp"
+#include "../Engine/Scene.hpp"
 
 class SceneGame : public Scene
 {

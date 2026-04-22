@@ -1,4 +1,4 @@
-#include "../Scene.hpp"
+#include "../Engine/Scene.hpp"
 
 class SceneMenu : public Scene
 {
