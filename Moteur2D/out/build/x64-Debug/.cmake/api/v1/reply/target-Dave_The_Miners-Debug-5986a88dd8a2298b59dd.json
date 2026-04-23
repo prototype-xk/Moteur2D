@@ -31,7 +31,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 24,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -43,7 +43,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 35,
+				"line" : 33,
 				"parent" : 0
 			},
 			{
@@ -53,15 +53,21 @@
 				"parent" : 0
 			},
 			{
-				"command" : 4,
+				"command" : 3,
 				"file" : 0,
-				"line" : 28,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 31,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 30,
 				"parent" : 0
 			}
 		]
@@ -83,10 +89,14 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/ebaloche/Documents/GitHub/Test/include"
+					"path" : "C:/Users/ebaloche/Documents/GitHub/Test/libs"
 				},
 				{
 					"backtrace" : 6,
+					"path" : "C:/Users/ebaloche/Documents/GitHub/Test/include"
+				},
+				{
+					"backtrace" : 7,
 					"path" : "C:/Users/ebaloche/Documents/GitHub/Test/src"
 				},
 				{
@@ -202,7 +212,8 @@
 				9,
 				10,
 				11,
-				12
+				12,
+				13
 			]
 		}
 	],
@@ -278,6 +289,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "include/Engine/SceneManager.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/Game/player.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],

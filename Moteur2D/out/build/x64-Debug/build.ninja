@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_Dave_The_Miners: phony || cmake_object_o
 
 build CMakeFiles\Dave_The_Miners.dir\src\Core\MStream.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\src\Core\MStream.cpp || cmake_object_order_depends_target_Dave_The_Miners
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
   OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Core
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
@@ -59,7 +59,7 @@ build CMakeFiles\Dave_The_Miners.dir\src\Core\MStream.cpp.obj: CXX_COMPILER__Dav
 
 build CMakeFiles\Dave_The_Miners.dir\src\Core\MString.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\src\Core\MString.cpp || cmake_object_order_depends_target_Dave_The_Miners
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
   OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Core
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
@@ -67,7 +67,7 @@ build CMakeFiles\Dave_The_Miners.dir\src\Core\MString.cpp.obj: CXX_COMPILER__Dav
 
 build CMakeFiles\Dave_The_Miners.dir\src\Core\MVector.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\src\Core\MVector.cpp || cmake_object_order_depends_target_Dave_The_Miners
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
   OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Core
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
@@ -75,7 +75,7 @@ build CMakeFiles\Dave_The_Miners.dir\src\Core\MVector.cpp.obj: CXX_COMPILER__Dav
 
 build CMakeFiles\Dave_The_Miners.dir\src\Engine\Scene.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\src\Engine\Scene.cpp || cmake_object_order_depends_target_Dave_The_Miners
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
   OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Engine
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
@@ -83,7 +83,7 @@ build CMakeFiles\Dave_The_Miners.dir\src\Engine\Scene.cpp.obj: CXX_COMPILER__Dav
 
 build CMakeFiles\Dave_The_Miners.dir\src\Engine\SceneManager.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\src\Engine\SceneManager.cpp || cmake_object_order_depends_target_Dave_The_Miners
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
   OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Engine
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
@@ -91,7 +91,7 @@ build CMakeFiles\Dave_The_Miners.dir\src\Engine\SceneManager.cpp.obj: CXX_COMPIL
 
 build CMakeFiles\Dave_The_Miners.dir\src\Game\player.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\src\Game\player.cpp || cmake_object_order_depends_target_Dave_The_Miners
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
   OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src\Game
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
@@ -99,7 +99,7 @@ build CMakeFiles\Dave_The_Miners.dir\src\Game\player.cpp.obj: CXX_COMPILER__Dave
 
 build CMakeFiles\Dave_The_Miners.dir\src\main.cpp.obj: CXX_COMPILER__Dave_The_Miners_unscanned_Debug C$:\Users\ebaloche\Documents\GitHub\Test\src\main.cpp || cmake_object_order_depends_target_Dave_The_Miners
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
+  INCLUDES = -IC:\Users\ebaloche\Documents\GitHub\Test\libs\SFML-3.1.0\include -IC:\Users\ebaloche\Documents\GitHub\Test\libs -IC:\Users\ebaloche\Documents\GitHub\Test\include -IC:\Users\ebaloche\Documents\GitHub\Test\src -IC:\Users\ebaloche\Documents\GitHub\Test\libs\LDtkLoader-1.5.3.1\include -IC:\Users\ebaloche\Documents\GitHub\Test\out\build\x64-Debug\libs\LDtkLoader-1.5.3.1\include
   OBJECT_DIR = CMakeFiles\Dave_The_Miners.dir
   OBJECT_FILE_DIR = CMakeFiles\Dave_The_Miners.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\Dave_The_Miners.dir\
