@@ -1,20 +1,25 @@
 #include <iostream>
 
+#include <XkLogs.hpp>
+
 #include "SFML/Graphics.hpp"
 #include "Engine/AssetManager.hpp"
 
 int main(int argc, char* argv[])
 {
+
+    XK_LOG_INIT();
+    XK_INFO("DEM GOOD");
 	sf::ContextSettings settings;
 	settings.antiAliasingLevel = 8;
 
 	sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "PlaceHolder", sf::Style::Default, sf::State::Windowed, settings);
 
-    mstd::AssetManager<sf::Texture>::Load("ERROR", "");
+    xk::AssetManager<sf::Texture>::Load("ERROR", "");
     sf::RectangleShape rectangle;
     rectangle.setPosition({ 100, 100 });
     rectangle.setSize({ 200, 200 });
-    rectangle.setTexture(&mstd::AssetManager<sf::Texture>::Get("nimporte_quoi"));
+    rectangle.setTexture(&xk::AssetManager<sf::Texture>::Get("nimporte_quoi"));
     rectangle.setTextureRect(sf::IntRect({ 0,0 }, { 200,200 }));
 
     while (window.isOpen())
@@ -37,5 +42,7 @@ int main(int argc, char* argv[])
         window.display();
     }
 
+    xk::AssetManager<sf::Texture>::unloadALL();
+    XK_SUCCESS("Moteur arrete proprement.");
 	return 0;
 }

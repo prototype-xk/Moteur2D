@@ -19,9 +19,6 @@
     <Filter Include="Fichiers sources\Scene">
       <UniqueIdentifier>{a2a1d6c8-1cf5-4476-9c08-46c5eec95945}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers sources\Core">
-      <UniqueIdentifier>{e08d531a-3b9a-40b2-91e3-7b020c25b2ec}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Fichiers sources\Engine">
       <UniqueIdentifier>{2bb73896-f28e-4192-90a0-65d57629faf4}</UniqueIdentifier>
     </Filter>
@@ -30,6 +27,9 @@
     </Filter>
     <Filter Include="Fichiers d%27en-tête\Engine">
       <UniqueIdentifier>{b7e427c3-7d8d-4047-a593-6d02a4f8a8bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Core">
+      <UniqueIdentifier>{200fdf7e-a7fb-4086-9d57-974752f18ad8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -60,14 +60,8 @@
     <ClCompile Include="Engine\SceneManager.cpp">
       <Filter>Fichiers sources\Engine</Filter>
     </ClCompile>
-    <ClCompile Include="Core\MStream.cpp">
-      <Filter>Fichiers sources\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="Core\MString.cpp">
-      <Filter>Fichiers sources\Core</Filter>
-    </ClCompile>
-    <ClCompile Include="Core\MVector.cpp">
-      <Filter>Fichiers sources\Core</Filter>
+    <ClCompile Include="XkLogs.cpp">
+      <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -97,15 +91,6 @@
     </ClInclude>
     <ClInclude Include="Engine\SceneManager.hpp">
       <Filter>Fichiers d%27en-tête\Engine</Filter>
-    </ClInclude>
-    <ClInclude Include="Core\MStream.hpp">
-      <Filter>Fichiers d%27en-tête\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Core\MString.hpp">
-      <Filter>Fichiers d%27en-tête\Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Core\MVector.hpp">
-      <Filter>Fichiers d%27en-tête\Core</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

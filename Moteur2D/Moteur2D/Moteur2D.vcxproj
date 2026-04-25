@@ -104,6 +104,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -122,6 +123,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <AdditionalIncludeDirectories>$(SolutionDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -131,9 +133,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Core\MStream.cpp" />
-    <ClCompile Include="Core\MString.cpp" />
-    <ClCompile Include="Core\MVector.cpp" />
     <ClCompile Include="Engine\Scene.cpp" />
     <ClCompile Include="Engine\SceneManager.cpp" />
     <ClCompile Include="main.cpp" />
@@ -143,11 +142,9 @@
     <ClCompile Include="Scene\SceneOption.cpp" />
     <ClCompile Include="Scene\SceneSelect.cpp" />
     <ClCompile Include="Scene\SceneWin.cpp" />
+    <ClCompile Include="XkLogs.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Core\MStream.hpp" />
-    <ClInclude Include="Core\MString.hpp" />
-    <ClInclude Include="Core\MVector.hpp" />
     <ClInclude Include="Engine\AssetManager.hpp" />
     <ClInclude Include="Engine\Scene.hpp" />
     <ClInclude Include="Engine\SceneManager.hpp" />

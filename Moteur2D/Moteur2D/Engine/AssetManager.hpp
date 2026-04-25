@@ -7,7 +7,9 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 
-namespace mstd {
+#include <XkLogs.hpp>
+
+namespace xk {
 	template<typename T>
 	struct AssetManager
 	{
@@ -23,9 +25,11 @@ namespace mstd {
 			T ressource;
 			if (ressource.loadFromFile(filepath)) {
 				data[name] = ressource;
+				XK_SUCCESS("AssetManager : Ressource '{0}' chargée depuis [{1}]", name, filepath);
 				return data[name];
 			}
 
+			XK_ERROR("AssetManager : Impossible de charger '{0}' à l'adresse : {1}", name, filepath);
 			return GetDefault();
 		}
 
@@ -34,12 +38,22 @@ namespace mstd {
 			if (it != data.end()) {
 				return it->second;
 			}
+
+			XK_WARN("AssetManager : Tentative d'accès à une ressource inexistante : '{0}'. Renvoi du fallback.", name);
 			return GetDefault();
 		}
 
 		static T& GetDefault() {
 			static T fallback;
 			return fallback;
+		}
+
+		static void unloadALL() {
+			size_t count = data.size();
+			if (count > 0) {
+				data.clear();
+				XK_INFO("AssetManager : Nettoyage de {0} ressources effectue.", count);
+			}
 		}
 	};
 
