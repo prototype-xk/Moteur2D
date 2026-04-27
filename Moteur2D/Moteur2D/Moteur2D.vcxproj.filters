@@ -61,7 +61,7 @@
       <Filter>Fichiers sources\Engine</Filter>
     </ClCompile>
     <ClCompile Include="XkLogs.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers sources\Core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

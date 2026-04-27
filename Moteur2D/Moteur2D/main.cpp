@@ -9,7 +9,11 @@ int main(int argc, char* argv[])
 {
 
     XK_LOG_INIT();
-    XK_INFO("DEM GOOD");
+    XK_INFO("TEST Info");
+    XK_ERROR("TEST Error");
+    XK_CRITICAL("TEST Critical");
+    XK_WARN("TEST Warn");
+    XK_SUCCESS("TEST Success");
 	sf::ContextSettings settings;
 	settings.antiAliasingLevel = 8;
 
